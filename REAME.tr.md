@@ -4,7 +4,7 @@
 
 Bu depoda warez vb. içerik bulunmamaktadır. Bu taslaklar, eğlenmek, sanat ve müziği bölüşmek içindir.
 
-Taslaklar WinAPI C ile Visual Studio ile yazıldı. İlk amaç 64 bir keygende XM müzik çalışmaktı. Sağolsunlar (libxmp)[https://github.com/libxmp/libxmp] kitaplığı sayesinde platfom bağımsız XM/MOD müziklerini çalabiliyoruz.
+Taslaklar WinAPI C ile Visual Studio ile yazıldı. İlk amaç 64 bir keygende XM müzik çalışmaktı. Sağolsunlar [libxmp](https://github.com/libxmp/libxmp) kitaplığı sayesinde platfom bağımsız XM/MOD müziklerini çalabiliyoruz.
 
 Eskiden uFMOD vardı, anımsıyor musun? Ben de eski günlerdeki gibi libxmp kitaplığından bir statik kitaplık yarattım. Artık XM/MOD müziklerini 64 uygulamanda kolaylıkla çalabilirsin.
 

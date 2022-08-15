@@ -4,7 +4,7 @@
 
 There is no warez stuff in this repo. These templates are only for fun and just to share art and music.
 
-Templates are written in WinAPI C. The very first aim is to play XM music in 64 bit. Thankfully there are good people who created (libxmp)[https://github.com/libxmp/libxmp] XM Player Library. Anyone can plan XM/MOD music independent from platform by using libxmp.
+Templates are written in WinAPI C. The very first aim is to play XM music in 64 bit. Thankfully there are good people who created [libxmp](https://github.com/libxmp/libxmp) XM Player Library. Anyone can plan XM/MOD music independent from platform by using libxmp.
 
 Do you remember uFMOD? I have created a static library just like the old days. Now you can play your XM in a 64 bit windows application. 
 
