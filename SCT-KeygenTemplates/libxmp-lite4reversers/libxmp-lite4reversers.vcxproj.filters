@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="loaders">
+      <UniqueIdentifier>{ee4017d8-9f1f-4dff-bbc7-1153b5960da6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="win32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="commands.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="control.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dataio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="effects.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="filter.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="format.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lfo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="load.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="load_helpers.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="md5.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="memio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="misc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mix_all.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mixer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="period.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="player.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="read_event.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scan.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sct_xm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="smix.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sound.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="virtual.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="loaders\common.c">
+      <Filter>loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="loaders\it_load.c">
+      <Filter>loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="loaders\itsex.c">
+      <Filter>loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="loaders\mod_load.c">
+      <Filter>loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="loaders\s3m_load.c">
+      <Filter>loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="loaders\sample.c">
+      <Filter>loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="loaders\xm_load.c">
+      <Filter>loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="filetype.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sound_win32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="callbackio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="effects.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="list.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="md5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mdataio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="memio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mixer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="period.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="precomp_lut.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sound.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="unistd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="virtual.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xmp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="commonp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tempfile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="format.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="loaders\it.h">
+      <Filter>loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="loaders\loader.h">
+      <Filter>loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="loaders\mod.h">
+      <Filter>loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="loaders\s3m.h">
+      <Filter>loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="loaders\xm.h">
+      <Filter>loaders</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="loaders\Makefile">
+      <Filter>loaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
